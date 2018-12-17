@@ -1,0 +1,13 @@
+#!/bin/sh
+echo "Running pre-push hook...";
+
+function check_result {
+echo $1
+  if [ "$1" != "" ]; then
+    echo "$@"
+    exit 1
+  fi
+}
+
+echo "Running tslint...";
+check_result "$(./node_modules/.bin/tslint --type-check -p src/tsconfig.json -c tslint.json src/**/*.ts)";

@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./fonts/icomoon.eot');
+  src:  url('./fonts/icomoon.eot') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf') format('truetype'),
+    url('./fonts/icomoon.woff') format('woff'),
+    url('./fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-flash:before {
+  content: "\e902";
+}
+.icon-arrow:before {
+  content: "\e91f";
+}
+.icon-HD:before {
+  content: "\e920";
+}
+.icon-WiFi:before {
+  content: "\e921";
+}
+.icon-chip:before {
+  content: "\e922";
+}
+.icon-sad:before {
+  content: "\e918";
+}
+.icon-smile:before {
+  content: "\e919";
+}
+.icon-order2:before {
+  content: "\e91a";
+}
+.icon-clock:before {
+  content: "\e91b";
+}
+.icon-growth:before {
+  content: "\e91c";
+}
+.icon-chart2:before {
+  content: "\e91d";
+}
+.icon-order3:before {
+  content: "\e91e";
+}
+.icon-printer2:before {
+  content: "\e900";
+}
+.icon-printer:before {
+  content: "\e901";
+}
+.icon-pos-done:before {
+  content: "\e903";
+}
+.icon-edit:before {
+  content: "\e904";
+}
+.icon-waimai:before {
+  content: "\e905";
+}
+.icon-money:before {
+  content: "\e906";
+}
+.icon-cook:before {
+  content: "\e907";
+}
+.icon-chart:before {
+  content: "\e908";
+}
+.icon-setting:before {
+  content: "\e909";
+}
+.icon-table:before {
+  content: "\e90a";
+}
+.icon-bank-card:before {
+  content: "\e90b";
+}
+.icon-groupon:before {
+  content: "\e90c";
+}
+.icon-shopping:before {
+  content: "\e90d";
+}
+.icon-staff:before {
+  content: "\e90e";
+}
+.icon-booths:before {
+  content: "\e90f";
+}
+.icon-order:before {
+  content: "\e910";
+}
+.icon-save:before {
+  content: "\e911";
+}
+.icon-abacus:before {
+  content: "\e912";
+}
+.icon-money2:before {
+  content: "\e913";
+}
+.icon-vip:before {
+  content: "\e914";
+}
+.icon-supply-chain:before {
+  content: "\e915";
+}
+.icon-bookmark:before {
+  content: "\e916";
+}
+.icon-dish:before {
+  content: "\e917";
+}

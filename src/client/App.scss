@@ -1,0 +1,12 @@
+@import "./styles/index.scss";
+@import "./styles/variables.scss";
+
+#app-container{
+  padding-top: 59px;
+}
+
+@media (max-width: $screen-md-min) {
+  #app-container{
+    padding-top: 44px;
+  }
+}
