@@ -8,7 +8,6 @@ const root = config.get('root') as string;
 const webpackConfig = require(path.resolve(root, './config/webpack.dev.js'));
 const compiler = webpack(webpackConfig);
 
-// @thx shiyun 4 hot load
 const server = new WebpackDevServer(compiler, {
   headers: { 'Access-Control-Allow-Origin': '*' },
   publicPath: webpackConfig.output.publicPath,
